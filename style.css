@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(9, 194, 207);
+    font-family: monospace;
+    font-size: 30px;
+    padding: 10px;
+    COLOR: rgb(255, 238, 2);
+    overflow: hidden;
+    background-image: url(https://thf.bing.com/th/id/OIP.TGboEk3AsVEOTQmNxgQG_wHaEq?w=290&h=182&c=7&r=0&o=7&cb=thfc1falcon&pid=1.7&rm=3);
+    background-position: center;
+    background-size: cover;
+}
+.visor{
+    width: 90%;
+    height: 70%;
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url();
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#terminal {
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 15%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    background-image: url();
+    background-repeat: no-repeat;
+}
